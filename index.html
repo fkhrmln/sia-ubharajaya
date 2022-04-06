@@ -20,8 +20,25 @@
             <h1>SIA UBHARA JAYA</h1>
           </div>
           <div class="link">
-            <a href="">Signup</a>
-            <a href="">Login</a>
+            <span id="signup">signup</span>
+            <span id="login">Login</span>
+          </div>
+          <div class="overlay-login" id="overlay">
+            <form action="page/dashboard.html" name="form">
+              <img src="assets/back.png" alt="" id="back" />
+              <h1>User Login</h1>
+              <div class="email">
+                <div class="label">Email</div>
+                <input type="text" name="email" autocomplete="none" />
+                <div id="email-error">Email cannot be less than 8 character</div>
+              </div>
+              <div class="password">
+                <div class="label">Password</div>
+                <input type="password" name="password" />
+                <div id="password-error">Password cannot be less than 8 character</div>
+              </div>
+              <button type="submit" class="submit">Login</button>
+            </form>
           </div>
         </header>
         <div class="content">
@@ -88,5 +105,6 @@
     </div>
     <script src="particles/particles.js"></script>
     <script src="particles/app.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
