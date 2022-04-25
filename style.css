@@ -219,11 +219,11 @@ header .link span:hover::after {
 
 footer {
     color: black;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 10px 30px;
-
 }
 
 footer img {
