@@ -17,7 +17,6 @@ const password = document.forms['form']['password'];
 
 const emailError = document.getElementById('email-error');
 const passwordError = document.getElementById('password-error');
-const emailRegexp = /\S+@\S+\.\S+/;
 
 email.addEventListener('textInput', () => {
   if (email.value.length < 8) {
